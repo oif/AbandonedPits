@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot'); /* IE9*/
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff') format('woff'), /* chrome、firefox */
+  url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-image: url(../overwatch.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  font-family: "Alright Sans LP", "Avenir Next", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Source Han Sans SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi MicroHei", sans-serif
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-top: 1px solid rgba(255, 255, 255, .25);
+}
+
+.navbar {
+  /*max-height: 50px;*/
+  background-color: rgba(16, 17, 23, .12);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .8);
+}
+
+nav.navbar.navbar-fixed-top {
+  position: relative;
+}
+
+.navbar-brand {
+  padding: 5px 15px;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    padding: 9px 15px;
+  }
+
+  #right {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #right,
+  #header,
+  .banner > .do-it {
+    display: none;
+  }
+}
+
+.navbar-nav {
+  float: right !important
+}
+
+.navbar-nav > li > a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+div#navbar.navbar-collapse.collapse.in,
+div#navbar.navbar-collapse.collapsing {
+  background-color: rgba(16, 17, 23, .12);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e2e2e2;
+  border-bottom-color: rgba(0, 0, 0, .2);
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li.active > a:hover,
+.navbar-nav > li.active > a:focus {
+  color: #fff;
+  background-color: transparent !important;
+  cursor: default;
+  border-bottom-color: transparent;
+  text-decoration: none;
+  text-shadow: 0 0 10px #fff, 0 -6px 10px rgba(255, 255, 255, .3), 0 6px 10px rgba(255, 255, 255, .3);
+  -webkit-transition: text-shadow 160ms ease, color 160ms ease;
+  transition: text-shadow 160ms ease, color 160ms ease
+}
+
+.navbar-nav > li > a {
+  color: rgba(255, 255, 255, .5);
+}
+
+.navbar-nav > li.active > a {
+  color: rgba(255, 255, 255, .9);
+}
+
+.shadow-container {
+  padding: 10px 0;
+  overflow: hidden;
+  background-color: rgba(16, 17, 23, .12);
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+  border-radius: 3px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.right-side {
+  margin: 0 auto;
+  padding-top: 10px;
+  width: 95%;
+  height: 100%;
+}
+
+.battleID {
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 500
+}
+
+.sep {
+  margin-top: 10px;
+  margin-bottom:10px;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+/* Right */
+
+.stats {
+  text-align: center;
+  max-height: 50px;
+  cursor: default;
+  display: inline-block
+}
+
+.stats li {
+  list-style: none;
+  float: left;
+}
+
+
+div#main {
+  margin-top: 20px
+}
+
+.banner {
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+}
+
+.banner > .do-it {
+  font-size: 15px;
+  float:right;
+  position:absolute;
+  bottom:2px;
+  right:0px;
+}
+
+
+.team_section {
+    padding: 15px 10px 20px 20px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.4s;
+    transition: all 0.1s;
+    border: 2px solid rgba(255, 255, 255, .25);
+}
+
+.team_section:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -ms-transition: all 0.4s;
+    transition: all 0.1s;
+
+    border-color: rgba(255, 255, 255, .65);
+
+}
+
+.info {
+  font-size: 17px;
+}
+.seg:after {
+  margin-left: 5px;
+  content: "/"
+}
+
+.hero {
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 5px;
+  margin-right: 5px
+}
+
+div.col-xs-2.hero {
+  width: 12.22222222%
+}
+
+.hero-avatar img {
+  border: 2px solid rgba(255, 255, 255, .25);
+}
+
+.hero-avatar img:hover {
+  border: 2px solid rgba(255, 255, 255, .75);
+  -webkit-transition: all 100ms cubic-bezier(0.075, .82, .165, 1);
+  transition: all 100ms cubic-bezier(0.075, .82, .165, 1)
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #fbc280
+}
+
+.tooltip-inner {
+  width: 170%;
+  max-width: 170%;
+  background-color: #fbc280
+}
+
+
+.footer {
+  bottom: 0;
+  height: 170px;
+  width: 100%;
+  font-weight: normal;
+  font-size: 14px;
+  border-top: 1px solid #777674;
+  background-color: rgba(16, 17, 23, .7);
+  -webkit-backdrop-filter: blur(17px);
+  backdrop-filter: blur(17px);
+}
+
+.footer > .container {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.links > li {
+  margin: 5px 0;
+  list-style: none;
+  margin-left: -30px
+}
+
+.links > li > a {
+  color: #fff
+}
